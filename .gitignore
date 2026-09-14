@@ -2,3 +2,6 @@
 data/processed/*.parquet
 data/processed/*.duckdb
 .venv/
+
+!data/processed/feat.parquet
+!data/processed/pems_d4.parquet
