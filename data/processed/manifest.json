@@ -1,0 +1,29 @@
+{
+  "rows": 7013100,
+  "cols": [
+    "station",
+    "Fwy",
+    "ts",
+    "speed",
+    "total_flow",
+    "occupancy",
+    "Lanes",
+    "temp",
+    "prcp",
+    "hr",
+    "dow",
+    "s_lag1",
+    "s_lag4",
+    "s_lag1d",
+    "s_lag1w",
+    "s_ma1h",
+    "f_lag1",
+    "y_15m",
+    "y_30m",
+    "y_60m"
+  ],
+  "md5": "6dba4fed8bd89330920b8812fb74764f",
+  "time_min": "2023-01-01 00:00:00",
+  "time_max": "2024-12-31 23:45:00",
+  "author": "Student A"
+}
