@@ -1,0 +1,7 @@
+step,rows_before,rows_after,dropped,reason
+remove missing/invalid speed,223285760,223285760,0,Keep observations with 0 < speed < 100
+drop duplicates,223285760,223233820,51940,Remove duplicate station-timestamp observations
+select 100 stations,223233820,21039200,202194620,"Keep stations with at least 90% of the maximum observation count, then select 100 stations"
+5-minute to 15-minute aggregation,21039200,7013100,0,"Change temporal resolution from 5 minutes to 15 minutes; row reduction is aggregation, not data deletion"
+metadata + weather merge,7013100,7013100,0,Left-merge station metadata and hourly San Jose weather
+final missing-target check,7013100,7013100,0,Speed is the forecasting target; missing target observations are not used

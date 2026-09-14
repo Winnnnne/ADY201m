@@ -1,0 +1,4 @@
+column,note
+speed,"strongly skewed, consider log or tree models"
+occupancy,"strongly skewed, consider log or tree models"
+prcp,"strongly skewed, consider log or tree models"

@@ -1,0 +1,11 @@
+column,reason,decision
+station,time/unit key,keep for feature building
+ts,time/unit key,keep for feature building
+speed,target,keep
+total_flow,correlation with target -0.42,keep
+occupancy,correlation with target -0.86,keep
+Fwy,other,review
+Dir,other,review
+Lanes,other,review
+temp,other,review
+prcp,other,review

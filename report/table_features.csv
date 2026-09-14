@@ -1,0 +1,16 @@
+feature,group
+speed,exogenous/structural
+s_lag1,lag/rolling
+s_lag4,lag/rolling
+s_lag1d,lag/rolling
+s_lag1w,lag/rolling
+s_ma1h,lag/rolling
+total_flow,exogenous/structural
+f_lag1,lag/rolling
+occupancy,exogenous/structural
+Lanes,exogenous/structural
+temp,exogenous/structural
+prcp,exogenous/structural
+hr,calendar
+dow,calendar
+st_code,exogenous/structural

@@ -1,0 +1,11 @@
+,missing_rate,decision
+prcp,0.0409,interpolate/impute median
+temp,0.0018,interpolate/impute median
+ts,0.0,keep
+station,0.0,keep
+speed,0.0,keep
+total_flow,0.0,keep
+Fwy,0.0,keep
+occupancy,0.0,keep
+Lanes,0.0,keep
+Dir,0.0,keep
