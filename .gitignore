@@ -1,4 +1,4 @@
-﻿data/raw
-data/processed
-.venv
-*.parquet
+﻿data/raw/
+data/processed/*.parquet
+data/processed/*.duckdb
+.venv/
